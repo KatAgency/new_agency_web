@@ -6290,7 +6290,6 @@ extend-service, .hero-block .services ul li a:before, .hero-block .services ul l
       .tabs ul li label {
         font-weight: 500;
         font-size: 16px;
-        color: #B41A1C;
         -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
         color: #B41A1C;
@@ -6518,8 +6517,9 @@ img.w-tab-img {
 .secation-d {
   float: left;
   width: 100%;
-  padding: 90px 0;
-  position: relative; }
+  padding: 70px 0 90px 0;
+  position: relative;
+  background: #f6f6f6; }
 
 .discover {
   float: left;
@@ -6529,11 +6529,14 @@ img.w-tab-img {
   transition: .3s;
   padding: 30px 20px 35px 200px;
   height: 290px;
-  margin-bottom: 15px; }
+  margin-bottom: 30px;
+  position: relative;
+  border: 1px solid #d3d3d3;
+  box-shadow: 3px 3px 6px -1px #d5d5d5; }
 
 .discover .KatBanImg {
   top: 0;
-  background: url(../images/discover/img-1.jpg) no-repeat;
+  background: url(../images/discover/img-1.png) no-repeat;
   position: absolute;
   left: 0;
   width: 200px;
@@ -6541,17 +6544,20 @@ img.w-tab-img {
   overflow: hidden;
   z-index: 0; }
 
+.discover .KatBanImg-a {
+  background: url(../images/discover/img-1.png) no-repeat; }
+
 .discover .KatBanImg-b {
-  background: url(../images/discover/img-2.png) no-repeat; }
-
-.discover .KatBanImg-c {
-  background: url(../images/discover/img-3.png) no-repeat; }
-
-.discover .KatBanImg-d {
   background: url(../images/discover/img-4.png) no-repeat; }
 
+.discover .KatBanImg-c {
+  background: url(../images/discover/img-2.png) no-repeat; }
+
+.discover .KatBanImg-d {
+  background: url(../images/discover/img-6.png) no-repeat; }
+
 .discover .KatBanImg-e {
-  background: url(../images/discover/img-3.png) no-repeat; }
+  background: url(../images/discover/img-5.png) no-repeat; }
 
 .discover .KatBanImg-f {
   background: url(../images/discover/img-3.png) no-repeat; }
@@ -6584,7 +6590,7 @@ img.w-tab-img {
   z-index: 1; }
 
 .discover:hover {
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.05), 0 2px 10px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 8px 8px 6px -1px #d5d5d5; }
 
 .RelLink {
   display: inline-block;
@@ -6593,6 +6599,32 @@ img.w-tab-img {
   padding-right: 15px;
   color: #B41A1C;
   font-weight: 300; }
+
+.secation-d h2 {
+  text-align: center;
+  color: #B41A1C;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin: 0;
+  font-size: 30px; }
+
+.secation-d .discover-con {
+  text-align: center;
+  color: #131010;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px; }
+
+.secation-e {
+  position: relative;
+  padding: 0;
+  float: left;
+  width: 100%;
+  background: url(../images/black.jpg) no-repeat;
+  background-size: cover;
+  padding: 90px 0; }
 
 /********************************************************
 Components SCSS for components Field 
@@ -7645,7 +7677,10 @@ Margin Mixin
 
   img.w-tab-img {
     width: 325px;
-    margin-top: 25px; } }
+    margin-top: 25px; }
+
+  .discover {
+    padding: 30px 20px 35px 200px; } }
 /********************************************************/
 /* Max-Width 992PX     *********************************/
 /********************************************************/
@@ -7840,7 +7875,10 @@ Margin Mixin
     padding: 40px 0 60px 0; }
 
   .tabs {
-    padding: 20px; } }
+    padding: 20px; }
+
+  .secation-d {
+    padding: 40px 10px 60px 10px; } }
 /********************************************************/
 /* Max-Width 576PX     *********************************/
 /********************************************************/
@@ -7906,7 +7944,14 @@ Margin Mixin
     padding: 10px; }
 
   .secation-c .about-more {
-    min-width: 208px; } }
+    min-width: 208px; }
+
+  .discover .KatBanImg {
+    display: none; }
+
+  .discover {
+    padding: 30px 20px 35px 20px;
+    height: auto; } }
 /********************************************************/
 /* Container Section    *********************************/
 /********************************************************/

@@ -96,7 +96,10 @@ Margin Mixin
 
   img.w-tab-img {
     width: 325px;
-    margin-top: 25px; } }
+    margin-top: 25px; }
+
+  .discover {
+    padding: 30px 20px 35px 200px; } }
 /********************************************************/
 /* Max-Width 992PX     *********************************/
 /********************************************************/
@@ -291,7 +294,10 @@ Margin Mixin
     padding: 40px 0 60px 0; }
 
   .tabs {
-    padding: 20px; } }
+    padding: 20px; }
+
+  .secation-d {
+    padding: 40px 10px 60px 10px; } }
 /********************************************************/
 /* Max-Width 576PX     *********************************/
 /********************************************************/
@@ -357,7 +363,14 @@ Margin Mixin
     padding: 10px; }
 
   .secation-c .about-more {
-    min-width: 208px; } }
+    min-width: 208px; }
+
+  .discover .KatBanImg {
+    display: none; }
+
+  .discover {
+    padding: 30px 20px 35px 20px;
+    height: auto; } }
 /********************************************************/
 /* Container Section    *********************************/
 /********************************************************/

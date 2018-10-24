@@ -94,6 +94,9 @@ Import Variables & Mixins
         width: 325px;
         margin-top: 25px;
     }
+    .discover{
+        padding: 30px 20px 35px 200px;
+    }
 }
 
 /********************************************************/
@@ -317,6 +320,10 @@ Import Variables & Mixins
     .tabs{
         padding: 20px;
     }
+    .secation-d{
+        padding: 40px 10px 60px 10px;
+    }
+    
 }
 
 /********************************************************/
@@ -394,6 +401,14 @@ Import Variables & Mixins
     .secation-c .about-more{
         min-width: 208px;
     }
+    .discover .KatBanImg{
+        display: none;
+    }
+    .discover {
+    padding: 30px 20px 35px 20px;
+    height: auto;    
+    }
+    
 }
 
 /********************************************************/
